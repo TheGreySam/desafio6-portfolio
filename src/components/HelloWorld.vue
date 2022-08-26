@@ -1,60 +1,141 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-router" target="_blank" rel="noopener">router</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-vuex" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-e2e-cypress" target="_blank" rel="noopener">e2e-cypress</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+  <div>
+    <section class="wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div
+              class="card shadow text-white card-has-bg click-col"
+              style="
+                background-image: url('https://source.unsplash.com/600x900/?tree,nature');
+              "
+            >
+              <img
+                class="card-img d-none"
+                src="https://source.unsplash.com/600x900/?tree,nature"
+                alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+              />
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0">
+                    <a class="text-white" herf="#"
+                      >Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a
+                    >
+                  </h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img
+                      class="mr-3 rounded-circle"
+                      src="https://assets.codepen.io/460692/internal/avatars/users/default.png"
+                      alt="Generic placeholder image"
+                      style="max-width: 50px"
+                    />
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div
+              class="card shadow text-white card-has-bg click-col"
+              style="
+                background-image: url('https://source.unsplash.com/600x900/?tech,street');
+              "
+            >
+              <img
+                class="card-img d-none"
+                src="https://source.unsplash.com/600x900/?tech,street"
+                alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+              />
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0">
+                    <a class="text-white" herf="#"
+                      >Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a
+                    >
+                  </h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img
+                      class="mr-3 rounded-circle"
+                      src="https://assets.codepen.io/460692/internal/avatars/users/default.png"
+                      alt="Generic placeholder image"
+                      style="max-width: 50px"
+                    />
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div
+              class="card shadow text-white card-has-bg click-col"
+              style="
+                background-image: url('https://source.unsplash.com/600x900/?computer,design');
+              "
+            >
+              <img
+                class="card-img d-none"
+                src="https://source.unsplash.com/600x900/?computer,design"
+                alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?"
+              />
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+                  <small class="card-meta mb-2">Thought Leadership</small>
+                  <h4 class="card-title mt-0">
+                    <a class="text-white" herf="#"
+                      >Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a
+                    >
+                  </h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img
+                      class="mr-3 rounded-circle"
+                      src="https://assets.codepen.io/460692/internal/avatars/users/default.png"
+                      alt="Generic placeholder image"
+                      style="max-width: 50px"
+                    />
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
-    msg: String
-  }
-}
+    msg: String,
+  },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+
 </style>
