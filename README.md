@@ -2,7 +2,7 @@
 
 Proyecto Portafolio Personal
 
-link proyecto: https://github.com/TheGreySam/desafio6-portfolio
+link proyecto: 
 
 link fork: https://github.com/TheGreySam/desafio6-portfolio/fork
 

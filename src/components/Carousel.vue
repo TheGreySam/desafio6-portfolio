@@ -32,7 +32,7 @@
                 class="card-img topimg"
                 src="@/assets/img/frontimage2.jpg"
                 alt="Card image"
-                style="object-position: 5px 20%"
+                style="object-position: 5pt 20%"
               />
               <div class="card-img-overlay d-block">
                 <div class="card-body pt-3" >
@@ -57,9 +57,9 @@
                 class="card-img topimg"
                 src="@/assets/img/frontimage3.jpg"
                 alt="Card image"
-                style="object-position: 5px 10%"
+                style="object-position: 5pt 10%"
               />
-              <div class="card-img-overlay ">
+              <div class="card-img-overlay w-100">
                 <div class="card-body pt-5" >
                    <h3 class="card-title">Estudios</h3>
                    
