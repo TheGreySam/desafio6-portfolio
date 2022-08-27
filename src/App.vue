@@ -31,12 +31,32 @@ export default {
 
 body {
  
-  background-image: linear-gradient(to bottom, #b1f7e3c8, #72799174, #7e4fcae9), url('https://source.unsplash.com/600x900/?tree,nature');
-  background-size: cover;
-   
+  //background-image: linear-gradient(to bottom, #b1f7e3c8, #72799174, #7e4fcae9), url('https://source.unsplash.com/600x900/?tree,nature');
+  //background-size: cover;
+  		background: linear-gradient(-45deg, #b1f7e3c8, #72799174, #7e4fcae9);
+	background-size: 200% 200%;
+	animation: gradient 25s ease infinite;
+
+	
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .wrapper {
   margin: 10vh;
+}
+.topimg {
+  width: 100%;
+  height: 30vw;
+  object-fit: cover;
 }
 .navbarbg {
   //color: white;
@@ -57,8 +77,9 @@ body {
       background: rgb(28, 155, 239);
         background: linear-gradient(
           0deg,
-          rgba(4, 69, 114, 0.5) 0%,
           rgba(4, 69, 114, 1) 100%
+          rgba(4, 69, 114, 0.5) 0%,
+          
         );
 
       
@@ -69,7 +90,7 @@ body {
   border: none;
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   overflow: hidden;
-  border-radius: 20px;
+  
   min-height: 450px;
   
 

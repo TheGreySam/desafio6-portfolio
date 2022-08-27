@@ -3,7 +3,8 @@
             <div
               class="card text-white "
               style="
-                background-image: url('https://source.unsplash.com/600x900/?tech,street');
+                background-image: url('https://source.unsplash.com/900x600/?tech,street');
+                background-size: cover;
               "
             >
               <img
