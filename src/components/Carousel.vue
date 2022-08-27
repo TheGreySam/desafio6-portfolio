@@ -15,12 +15,13 @@
                 src="@/assets/img/frontimage1.jpg"
                 alt="Card image"
               />
-              <div class="card-img-overlay d-block">
-                <div class="card-body text-left" >
-                  <h5 class="card-title">Sebastián Gómez Letelier</h5>
+              <div class="card-img-overlay">
+                <div class="card-body text-left pt-3" >
+                  <h3 class="card-title">Sebastián Gómez Letelier</h3>
                 <p class="card-text ">
                   Diseñador 3d, estudiante de informática y aspirante a cineasta, nacido en Alemania y emigrado a Chile con 6 años
                 </p>
+                
                 </div>
               </div>
             </div>
@@ -34,10 +35,17 @@
                 style="object-position: 5px 20%"
               />
               <div class="card-img-overlay d-block">
-                <div class="card-body text-left" >
-                  <h5 class="card-title">Diseñador 3d</h5>
+                <div class="card-body pt-3" >
+                  <h3 class="card-title">Diseñador 3d</h3>
                 <p class="card-text ">
                   Desarrollo de material audiovisual con 
+                  
+                </p>
+                <p>
+                  <span><img src="@/assets/img\UE_Logo_Black_Centered.svg" alt="" class="img-fluid m-5" style="width:100pt"></span>
+                   <span><img src="@/assets/img\cinema4dlogo.png" alt="" class="img-fluid m-5" style="width:100pt"></span>
+                    <span><img src="@/assets/img\Adobe_After_Effects_CC_icon.svg" alt="" class="img-fluid m-5" style="width:100pt"></span>
+                     <span><img src="@/assets/img\DaVinci_Resolve_17_logo.svg" alt="" class="img-fluid m-5" style="width:100pt"></span>
                 </p>
                 </div>
               </div>
@@ -51,14 +59,17 @@
                 alt="Card image"
                 style="object-position: 5px 10%"
               />
-              <div class="card-img-overlay d-block">
-                <div class="card-body text-left" >
-                  <h5 class="card-title">Card title</h5>
-                <p class="card-text ">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+              <div class="card-img-overlay ">
+                <div class="card-body pt-5" >
+                   <h3 class="card-title">Estudios</h3>
+                   
+                <p>
+                  
+                  <span><img src="@/assets/img\LOGO_UNIACC.png" alt="" class="img-fluid m-5" style="width:100pt"></span>
+                  
+                   <span><img src="@/assets/img\desafio-logo.png" alt="" class="img-fluid m-5" style="width:100pt"></span>
                 </p>
+                
                 </div>
               </div>
             </div>

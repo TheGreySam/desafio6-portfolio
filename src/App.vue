@@ -22,34 +22,88 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Exo, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   
 }
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
 
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+$bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
+$bg-width: 50px;
+$bg-height: 50px;
+
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% { background-position: $bg-width $bg-height; }
+}
+@-moz-keyframes    bg-scrolling-reverse {
+  100% { background-position: $bg-width $bg-height; }
+}
+@-o-keyframes      bg-scrolling-reverse {
+  100% { background-position: $bg-width $bg-height; }
+}
+@keyframes         bg-scrolling-reverse {
+  100% { background-position: $bg-width $bg-height; }
+}
+
+@-webkit-keyframes bg-scrolling {
+  0% { background-position: $bg-width $bg-height; }
+}
+@-moz-keyframes    bg-scrolling {
+  0% { background-position: $bg-width $bg-height; }
+}
+@-o-keyframes      bg-scrolling {
+  0% { background-position: $bg-width $bg-height; }
+}
+@keyframes         bg-scrolling {
+  0% { background-position: $bg-width $bg-height; }
+}
+
+/* Main styles */
 body {
+ 
+  color: rgb(153, 153, 153);
+
+  text-align: center;
+  /* img size is 50x50 */
+  background: url($bg-url) repeat 0 0;
+  
+  -webkit-animation: bg-scrolling-reverse .92s infinite; /* Safari 4+ */
+  -moz-animation:    bg-scrolling-reverse .92s infinite; /* Fx 5+ */
+  -o-animation:      bg-scrolling-reverse .92s infinite; /* Opera 12+ */
+  animation:         bg-scrolling-reverse .92s infinite; /* IE 10+ */
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function:    linear;
+  -o-animation-timing-function:      linear;
+  animation-timing-function:         linear;
+  
+ 
+}
+
+//body {
  
   //background-image: linear-gradient(to bottom, #b1f7e3c8, #72799174, #7e4fcae9), url('https://source.unsplash.com/600x900/?tree,nature');
   //background-size: cover;
-  		background: linear-gradient(-45deg, #b1f7e3c8, #72799174, #7e4fcae9);
-	background-size: 200% 200%;
-	animation: gradient 25s ease infinite;
+  //background: linear-gradient(-45deg, #b1f7e3c8, #72799174, #7e4fcae9), url('@/assets/img/image3.jpg');
+	//background-size: 200% 200%;
+	//animation: gradient 125s ease infinite;
 
-	
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
+//}
+//@keyframes gradient {
+//	0% {
+//		background-position: 0% 50%;
+//	}
+//	50% {
+//		background-position: 100% 50%;
+//	}
+//	100% {
+//		background-position: 0% 50%;
+//	}
+//}
 .wrapper {
   margin: 10vh;
 }
@@ -180,7 +234,7 @@ body {
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   overflow: hidden;
 
-  min-height: 450px;
+  height: 150px;
   &:hover {
       
       box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);

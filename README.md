@@ -1,5 +1,11 @@
 # desafio6-portfolio
 
+Proyecto Portafolio Personal
+
+link proyecto: https://github.com/TheGreySam/desafio6-portfolio
+
+link fork: https://github.com/TheGreySam/desafio6-portfolio/fork
+
 ## Project setup
 ```
 npm install
