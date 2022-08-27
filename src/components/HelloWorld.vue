@@ -1,9 +1,9 @@
 <template>
   <div>
     <section class="wrapper">
-      <div class="container bg-dark p-3 opacity-25">
+      <div class="container darkbg p-3 text-white">
         <div>
-          <h2 class="p-2 font-weight-bold">Inventario de Proyectos Github</h2>
+          <h2 class="p-2 text-white font-weight-bold">Inventario de Proyectos Github</h2>
           </div>
         <div class="row">
           <!---->
